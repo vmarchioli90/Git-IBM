@@ -1,4 +1,5 @@
 Este curso ensina a usar o Git do básico ao avançado com os seguintes comandos:
+
 git config --global user.email “Seu Email” => Setar email
 
 git config --global core.excludesfile ~/.gitignore => Setar arquivos a serem ignorados
