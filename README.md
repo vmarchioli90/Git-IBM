@@ -117,19 +117,31 @@ Fazendo o rebase entre um o branch bug-123 e o master.
 git checkout experiment
 
 git rebase master
+
 git stash
+
 git stash list => Listar stashes
+
 git stash apply => Voltar para o último stash
+
 git stash apply stash@{} => Voltar para um stash específico
+
 git stash branch meu_branch => Criar um branch a partir de um stash
 
 git commit --amend -m "Minha nova mensagem" => Alterando mensagens de commit
+
 git rebase -i HEAD~3 => Alterar os três últimos commits
+
 git bisect start => Iniciar pequinsa binária
+
 git bisect bad => Marcar o commit atual como ruim
+
 git bisect good vs-1.1 => Marcar o commit de uma tag que esta sem o bug/inconsistência
+
 git bisect good => Marcar o commit como bom
+
 git bisect bad => Marcar o commit como ruim
+
 git bisect reset => Finalizar a pesquisa binária
 
 
