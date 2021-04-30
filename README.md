@@ -95,6 +95,7 @@ git checkout master => Voltar para o branch principal (master)
 git merge bug-123 => Resolver merge entre os branches
 
 Para realizar o merge, é necessário estar no branch que deverá receber as alterações. O merge pode automático ou manual. O merge automático será feito em arquivos textos que não sofreram alterações nas mesmas linhas, já o merge manual será feito em arquivos textos que sofreram alterações nas mesmas linhas.
+
 git branch -d bug-123 => Apagando um branch
 
 git branch => Listar branches
